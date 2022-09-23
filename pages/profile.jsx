@@ -5,8 +5,7 @@ import Footer from '../components/Footer'
 function Profile() {
   return (
     <div>
-        <Header/>
-        <h2>Profile</h2>
+        <Header title={'PROFILE'}/>
         <Footer activeNow={'PROFILE'}/>
     </div>
   )

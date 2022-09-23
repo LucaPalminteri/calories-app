@@ -5,8 +5,7 @@ import Header from '../components/Header'
 function Add() {
   return (
     <div>
-        <Header/>
-        <h2>Add</h2>
+        <Header title={'ADD'}/>
         <Footer activeNow={'ADD'}/>
     </div>
   )

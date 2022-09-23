@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Header() {
+function Header({title}) {
   return (
-    <div>
-        <h1>HEADER</h1>
+    <div className='header'>
+        <h1>{title}</h1>
     </div>
   )
 }

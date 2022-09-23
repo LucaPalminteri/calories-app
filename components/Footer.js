@@ -9,11 +9,10 @@ import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 
 function Footer({activeNow}) {
 
-  console.log(activeNow);
   return (
     <div className='footer'>
         <nav>
-            <Link href={'/'}>
+            <Link href={'/home'}>
               {
                 activeNow == 'HOME' ?
                 <div style={{borderTop: '3px solid #000'}}><HomeRoundedIcon className='footer-icon active' fontSize='large'  /></div> :
