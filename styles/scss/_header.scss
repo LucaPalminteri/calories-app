@@ -5,8 +5,13 @@
     justify-content: space-between;
     align-items: center;
     background-color: $header-footer-color;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     padding: 10px;
     height: 40px;
+    z-index: 10;
 
     h1 {
         text-align: center;

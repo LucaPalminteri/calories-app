@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import SettingsIcon from '@mui/icons-material/Settings';
+import Link from 'next/link';
 
 function Header({title}) {
 
@@ -17,7 +18,9 @@ function Header({title}) {
       </button>
       {
         title == 'PROFILE' ? 
-        <SettingsIcon fontSize='large' /> :
+        <Link href='/settings'>
+          <SettingsIcon fontSize='large' /> 
+        </Link> :
         <h1>{title}</h1>
       }
     </div>

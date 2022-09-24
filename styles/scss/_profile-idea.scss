@@ -1,0 +1,36 @@
+.profile-idea {
+
+    .idea-post__header {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+
+        .username {
+            width: 180px;
+            height: 20px;
+            background-color: #CDCDCD;
+            margin-left: 20px;
+            border-radius: 4px;
+        }
+    }
+
+    .idea-post__main {
+        margin: 20px;
+        height: 100px;
+        background-color: #CDCDCD;
+        border-radius: 8px;
+        margin-bottom: 0;
+    }
+
+    .idea-post__footer {
+        display: flex;
+
+        .idea-item {
+            border-radius: 6px;
+            margin: 20px;
+            width: 30px;
+            height: 30px;
+            background-color: #CDCDCD;
+        }
+    }
+}

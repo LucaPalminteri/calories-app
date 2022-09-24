@@ -1,10 +1,9 @@
 import React from 'react'
 
-function IdeaPost() {
+function ProfileIdea() {
   return (
-    <div className='idea-post'>
-        <header className='idea-post__header'>
-            <div className='profile-img'></div>
+    <div className='profile-idea'>
+         <header className='idea-post__header'>
             <div className='username'></div>
         </header>
         <main>
@@ -19,4 +18,4 @@ function IdeaPost() {
   )
 }
 
-export default IdeaPost
+export default ProfileIdea

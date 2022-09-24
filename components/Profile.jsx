@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import user from "../data/user.json"
+import ProfileSection from './ProfileSection'
 
 function Profile() {
   return (
@@ -12,12 +13,13 @@ function Profile() {
                 layout={'responsive'}
                 width={100}
                 height={35}
+                priority='75'
             />
         </div>
         <div className='profile-img'>
           <Image
           style={{borderRadius: 100}}
-                alt='banner'
+                alt='user-img'
                 src={'/user-img.jpg'}
                 layout={'responsive'}
                 width={100}
@@ -43,6 +45,7 @@ function Profile() {
           <h4>@{user.username}</h4>
           <p>{user.bio}</p>
         </div>
+        <ProfileSection />
     </div>
   )
 }

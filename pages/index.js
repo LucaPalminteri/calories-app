@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Home from './home'
 
 export default function Index() {
-  console.log(process.env.NEXT_PUBLIC_SUPABASE_KEY);
   return (
     <div>
       <Head>

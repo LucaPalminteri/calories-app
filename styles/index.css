@@ -95,7 +95,7 @@
 
 html,
 body {
-  padding: 0;
+  padding: 25px 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -116,8 +116,13 @@ a {
       -ms-flex-align: center;
           align-items: center;
   background-color: #efefef;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   padding: 10px;
   height: 40px;
+  z-index: 10;
 }
 
 .header h1 {
@@ -197,6 +202,7 @@ a {
   margin-top: 100px;
   padding: 0 20px;
   border-bottom: 3px solid #efefef;
+  padding-bottom: 20px;
 }
 
 .home .idea-post {
@@ -225,6 +231,7 @@ a {
   height: 20px;
   background-color: #CDCDCD;
   margin-left: 20px;
+  border-radius: 4px;
 }
 
 .home .idea-post .idea-post__main {
@@ -246,5 +253,88 @@ a {
   width: 30px;
   height: 30px;
   background-color: #CDCDCD;
+}
+
+.profile-section .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-section .btn-container button {
+  background-color: transparent;
+  border: none;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 10px;
+}
+
+.profile-section .profile-ideas {
+  margin: 40px 0 80px 0;
+}
+
+.profile-idea .idea-post__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.profile-idea .idea-post__header .username {
+  width: 180px;
+  height: 20px;
+  background-color: #CDCDCD;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+.profile-idea .idea-post__main {
+  margin: 20px;
+  height: 100px;
+  background-color: #CDCDCD;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+.profile-idea .idea-post__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-idea .idea-post__footer .idea-item {
+  border-radius: 6px;
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #CDCDCD;
+}
+
+.settings {
+  padding-top: 20px;
+}
+
+.settings nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.settings nav .setting-option {
+  border-bottom: 1px solid #BEBEBE;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
 }
 /*# sourceMappingURL=index.css.map */
