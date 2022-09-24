@@ -24,9 +24,24 @@ function Profile() {
                 height={100}
             />
         </div>
+        <div className='profile-data'>
+          <div className='data'>
+            <h4>Followers</h4>
+            <h4>{user.followers}</h4> 
+          </div>
+          <div className='data'>
+            <h4>Follows</h4>
+            <h4>{user.follows}</h4>
+          </div>
+          <div className='data'>
+            <h4>Ideas</h4>
+            <h4>{user.ideas}</h4>
+          </div>
+        </div>
         <div className='profile-info'>
           <h3>{user.name}</h3>
           <h4>@{user.username}</h4>
+          <p>{user.bio}</p>
         </div>
     </div>
   )
