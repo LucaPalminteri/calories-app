@@ -1,0 +1,47 @@
+.home {
+
+    .idea-post {
+        margin: 20px 0;
+        padding: 10px;
+
+        .idea-post__header {
+            display: flex;
+            align-items: center;
+
+            .profile-img {
+                width: 40px;
+                height: 40px;
+                border-radius: 40px;
+                background-color: #CDCDCD;
+            }
+
+            .username {
+                width: 180px;
+                height: 20px;
+                background-color: #CDCDCD;
+                margin-left: 20px;
+            }
+        }
+
+        .idea-post__main {
+            margin: 20px;
+            height: 100px;
+            background-color: #CDCDCD;
+            border-radius: 8px;
+        }
+
+        .idea-post__footer {
+            display: flex;
+
+            .idea-item {
+                border-radius: 6px;
+                margin: 20px;
+                width: 30px;
+                height: 30px;
+                background-color: #CDCDCD;
+            }
+        }
+
+    }
+
+}

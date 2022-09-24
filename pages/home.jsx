@@ -6,6 +6,7 @@ function Home() {
   return (
     <div>
         <Header title={'HOME'} />
+        <Main/>
         <Footer activeNow={'HOME'}/>
     </div>
   )

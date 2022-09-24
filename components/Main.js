@@ -1,9 +1,20 @@
-import React from 'react'
+import { useState } from 'react'
+import IdeaPost from './IdeaPost'
 
 function Main() {
+
+  const createPosts = (cant) => {
+    const arrPosts = [];
+    for(let i=0;i<cant;i++) {
+      arrPosts.push(
+      <IdeaPost key={i} />)
+    }
+    return arrPosts
+  }
+
   return (
-    <div>
-      <h2>Main</h2>
+    <div className='home'>
+        {createPosts(10)}
     </div>
   )
 }
