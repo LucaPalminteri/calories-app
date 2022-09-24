@@ -224,6 +224,7 @@ a {
   height: 40px;
   border-radius: 40px;
   background-color: #CDCDCD;
+  margin-left: 20px;
 }
 
 .home .idea-post .idea-post__header .username {
@@ -239,17 +240,19 @@ a {
   height: 100px;
   background-color: #CDCDCD;
   border-radius: 8px;
+  margin-bottom: 0;
 }
 
 .home .idea-post .idea-post__footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 10px;
 }
 
 .home .idea-post .idea-post__footer .idea-item {
   border-radius: 6px;
-  margin: 20px;
+  margin: 10px;
   width: 30px;
   height: 30px;
   background-color: #CDCDCD;
@@ -261,7 +264,7 @@ a {
   display: flex;
 }
 
-.profile-section .btn-container button {
+.profile-section .btn-container .btn-profile {
   background-color: transparent;
   border: none;
   -webkit-box-flex: 1;

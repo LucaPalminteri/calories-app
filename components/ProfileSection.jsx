@@ -23,8 +23,20 @@ function ProfileSection() {
   return (
     <div className='profile-section'>
         <nav className='btn-container'>
-            <button onClick={() => buttonHandler('IDEAS')} style={ activeSection == 'IDEAS' ? bottomBorder : noBorder}>IDEAS</button>
-            <button onClick={() => buttonHandler('PROBLEMS')} style={ activeSection == 'PROBLEMS' ? bottomBorder : noBorder}>PROBLEMS</button>
+            <button 
+                onClick={() => buttonHandler('IDEAS')} 
+                style={ activeSection == 'IDEAS' ? bottomBorder : noBorder}
+                className='btn-profile'
+            >
+                IDEAS
+            </button>
+            <button 
+                onClick={() => buttonHandler('PROBLEMS')} 
+                style={ activeSection == 'PROBLEMS' ? bottomBorder : noBorder}
+                className='btn-profile'
+            >
+                PROBLEMS
+            </button>
         </nav>
         <main className="profile-ideas">
             {createPosts(10)}

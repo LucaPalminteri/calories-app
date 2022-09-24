@@ -13,6 +13,7 @@
                 height: 40px;
                 border-radius: 40px;
                 background-color: #CDCDCD;
+                margin-left: 20px;
             }
 
             .username {
@@ -29,14 +30,16 @@
             height: 100px;
             background-color: #CDCDCD;
             border-radius: 8px;
+            margin-bottom: 0;
         }
 
         .idea-post__footer {
             display: flex;
+            margin: 0 10px;
 
             .idea-item {
                 border-radius: 6px;
-                margin: 20px;
+                margin: 10px;
                 width: 30px;
                 height: 30px;
                 background-color: #CDCDCD;

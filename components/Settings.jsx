@@ -8,7 +8,7 @@ function Settings() {
         const arrPosts = [];
         for(let i=0;i<cant;i++) {
           arrPosts.push(
-          <div className='setting-option' >Setting option {i+1}</div>)
+          <div key={i} className='setting-option' >Setting option {i+1}</div>)
         }
         return arrPosts
       }

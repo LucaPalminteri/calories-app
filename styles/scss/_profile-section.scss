@@ -3,12 +3,13 @@
     
     .btn-container {
         display: flex;
-        button {
+        .btn-profile {
             background-color: transparent;
             border: none;
             flex-grow: 1;
             padding: 10px;
         }
+        
     }
 
     .profile-ideas {
