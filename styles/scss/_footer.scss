@@ -12,6 +12,18 @@
     }
 }
 
+@keyframes lineL {
+    0% {
+        transform: scaleX(.3)
+    }
+    50% {
+        transform: scaleX(.75)
+    }
+    100% {
+        transform: scaleX(1)
+    }
+}
+
 .footer {
     position: fixed;
     width: 100%;
@@ -21,6 +33,12 @@
         display: flex;
         justify-content: space-around;
         background-color: $header-footer-color;
+
+        .line-icon {
+            animation-duration: .1s;
+            animation-name: lineL;
+            border-top: 5px solid #000;
+        }
         
         .footer-icon {
             padding: 16px 30px;
@@ -29,7 +47,7 @@
         .active {
             animation-duration: .2s;
             animation-name: showL;
-            margin-top: -3px;
+            margin-top: -5px;
         }
     }
 
